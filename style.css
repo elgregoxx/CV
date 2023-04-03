@@ -1,17 +1,17 @@
-body{background: #2193b0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body{background: #f1f4f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f0f1f1, #eff1f1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e4e7e7, #eff4f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     font-size:large
 }
 h1{
-color: black;
-background-color: black
-font-family: fantasy;}
-.imagen{  border-radius: 500px;
-    border:  9px;
-    margin: 60px;
-    padding: 45px;
+color: white;
+background-color:white}
+
+
+.imagen{
+    float: left;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
 }
-
-

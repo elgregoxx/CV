@@ -1,3 +1,20 @@
 .academico{
-    background-color: black;
+    background-color: white;
+}
+h1{background-color: white;}
+.imagen2{
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+
+}
+
+.imagen6{
+    position: absolute;
+width: 232px;
+height: 158px;
+
+background: url(idiomas.png);
+border-radius: 79px;
+
 }
