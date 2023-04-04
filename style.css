@@ -1,12 +1,14 @@
-body{background: #f1f4f5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f0f1f1, #eff1f1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #e4e7e7, #eff4f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body{background: hsl(195, 100%, 86%);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bafafa, #a7f8f8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #abffff, #a2edfc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     font-size:large
 }
-h1{
-color: white;
-background-color:white}
+h1{background-color: rgb(241, 128, 128);
+    color:black;}
+    
+    h2{background-color: rgb(241, 128, 128);
+        color:black;}
 
 
 .imagen{
