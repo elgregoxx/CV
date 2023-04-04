@@ -1,7 +1,8 @@
+body{background-color: rgb(157, 247, 247)}
 .academico{
-    background-color: white;
+    background-color: rgb(245, 140, 140);
 }
-h1{background-color: white;}
+h1{background-color: rgb(241, 128, 128);}
 .imagen2{
     padding: 20px;
     height: 250px;
@@ -11,8 +12,8 @@ h1{background-color: white;}
 
 .imagen6{
     position: absolute;
-width: 232px;
-height: 158px;
+width: 200px;
+height: 149px;
 
 background: url(idiomas.png);
 border-radius: 79px;
