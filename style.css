@@ -1,12 +1,14 @@
-body{background: #f1f4f5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f0f1f1, #eff1f1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #e4e7e7, #eff4f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body{background: hsl(195, 32%, 52%);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #79c4c4, #188d8d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #111f3a, #59c3d8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     font-size:large
 }
-h1{
-color: white;
-background-color:white}
+h1{background-color: rgb(100, 195, 206);
+    color:black;
+border-style:solid;
+padding: 5px;}
+    
 
 
 .imagen{
@@ -15,3 +17,36 @@ background-color:white}
     height: 250px;
     width: 250px;
 }
+.imagen{
+    border-radius: 300px;
+}
+ul{list-style-type: none;
+padding: 0%;
+margin: 0%;
+overflow: hidden;
+background-color: rgb(75, 139, 199);
+}
+li a{
+    float:left ;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+text-align: center;
+text-decoration:none;
+min-width:60px;
+border-right: 1px solid black;}
+
+li a:hover{
+    background-color:  rgb(52, 94, 131);
+animation:glow;
+animation-duration: 3s;
+animation-iteration-count: infinite;}
+
+ 
+@keyframes glow{
+    50% {text-shadow: 0px 0px 10px green;}
+}
+h3{color: antiquewhite;}
+h4{color: antiquewhite
+    ;}
+    p{color: antiquewhite;}
