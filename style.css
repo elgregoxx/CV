@@ -7,7 +7,9 @@ body{background: hsl(195, 32%, 52%);  /* fallback for old browsers */
 h1{background-color: rgb(100, 195, 206);
     color:black;
 border-style:solid;
-padding: 5px;}
+padding: 5px;
+font-family:'Courier New', Courier, monospace;
+font-weight: bold;}
     
 
 
@@ -16,50 +18,64 @@ padding: 5px;}
     padding: 20px;
     height: 250px;
     width: 250px;
+    transition: .5s ease;
 }
 .imagen{
     border-radius: 300px;
 }
 ul{list-style-type: none;
-padding: 0%;
-margin: 0%;
-overflow: hidden;
-background-color: rgb(75, 139, 199);
-
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: rgb(75, 139, 199);
+    font-family:'Courier New', Courier, monospace;
+cursor:pointer;    font-weight: bold;
 }
-li a{
-    float:left ;
-    display: block;
-    color: rgb(255, 255, 255);
-    padding: 10px 15px;
-text-align: center;
-text-decoration:none;
-min-width:60px;
-border-right: 1px solid black;}
-
-li a:hover{
-    background-color:  rgb(52, 94, 131);
-animation:glow;
-animation-duration: 3s;
-animation-iteration-count: infinite;}
+    li a{
+        float:left ;
+        display: block;
+        color: rgb(255, 255, 255);
+        padding: 10px 15px;
+    text-align: center;
+    text-decoration:none;
+    min-width:60px;
+    border-right: 1px solid black;}
+    
+    li a:hover{
+        background-color:  rgb(52, 94, 131);
+    animation:glow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+opacity: .8;}
 
  
 @keyframes glow{
     50% {text-shadow: 0px 0px 10px green;}
 }
-h3{color: antiquewhite;}
-h4{color: antiquewhite
-    ;}
-    p{color: antiquewhite;}
+h3{color: antiquewhite;font-family:'Courier New', Courier, monospace;
+}
+h4{color: antiquewhite 
+    ; font-family:'Courier New', Courier, monospace;}
+    p{color: antiquewhite; font-family:'Courier New', Courier, monospace;
+    left: 10px;
+;}
 
-.fa-instagram{color: #d908e0;}
-    .fa-envelope{ color: rgb(142, 120, 204);}
-    .fa-download{color: rgb(180, 71, 243);}
+.fa-instagram{color: #d908e0;
+background-color: white;}
+    .fa-envelope{ color: rgb(142, 120, 204);
+    background-color: white;}
+    .fa-download{color: rgb(180, 71, 243);
+    background-color: white;}
 
-    .fa-instagram a:hover{
-        animation: forwards;
-        animation-duration: 3s;
-        animation-name: big;
-    }
-    .fa-twitter{color: #018dff;}
-    .fa-facebook{color: #006eff;}
+    
+    
+    .fa-twitter{color: #018dff;
+    background-color: white;}
+
+    .fa-facebook{color: #006eff;
+    background-color: white;}
+
+.socialmedia ul{background-color: white;
+   }
+
+*{transition: .5s ease;}
