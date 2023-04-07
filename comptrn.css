@@ -7,46 +7,47 @@ body{background: hsl(195, 32%, 52%);  /* fallback for old browsers */
 h1{background-color: rgb(100, 195, 206);
     color:rgb(250, 246, 246);
 border: solid 4px black;
-padding: 1px;}
+padding: 1px;
+font-family:'Courier New', Courier, monospace;}
     
     
     
     h2{background-color: rgb(62, 149, 219);
         color:rgb(255, 254, 254);
-    border: solid 3px black;}
-        ul{list-style-type: none;
-            padding: 0%;
-            margin: 0%;
-            overflow: hidden;
-            background-color: rgb(75, 139, 199);
-            }
-            li a{
-                float:left ;
-                display: block;
-                color: rgb(255, 255, 255);
-                padding: 10px 15px;
-            text-align: center;
-            text-decoration:none;
-            min-width:60px;
-            border-right: 1px solid black;}
-            
-            li a:hover{
-                background-color:  rgb(52, 94, 131);
-            animation:glow;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;}
-            
-             
-            @keyframes glow{
-                50% {text-shadow: 0px 0px 10px green;}
-            }
+    border: solid 3px black;
+    font-family:'Courier New', Courier, monospace;}
+  
+    ul{list-style-type: none;
+        padding: 0%;
+        margin: 0%;
+        overflow: hidden;
+        background-color: rgb(75, 139, 199);
+        font-family:'Courier New', Courier, monospace;
+        cursor: pointer;      }
+        li a{
+            float:left ;
+            display: block;
+            color: rgb(255, 255, 255);
+            padding: 10px 15px;
+        text-align: center;
+        text-decoration:none;
+        min-width:60px;
+        border-right: 1px solid black;}
+        
+        li a:hover{
+            background-color:  rgb(52, 94, 131);
+        animation:glow;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;}
            ol{color: antiquewhite;
-        background-color: #59c3d8;}
+        background-color: #59c3d8;
+        font-family:'Courier New', Courier, monospace;}
 
                 p{color: antiquewhite;
                 background-color: #59c3d8;
-            border: solid 3px black;}
+            border: solid 3px black;
+            font-family:'Courier New', Courier, monospace;}
 
                 ul{border: solid 3px black;
                 color: white;}
-                
+              
