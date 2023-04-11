@@ -21,9 +21,10 @@ font-family:'Courier New', Courier, monospace;}
     position: absolute;
 width: 200px;
 height: 149px;
+border: solid;
 
 background: url(idiomas.png);
-border-radius: 79px;
+border-radius: 25px;
 position: relative;}
 
 ul{list-style-type: none;
@@ -53,17 +54,19 @@ ul{list-style-type: none;
     @keyframes glow{
         50% {text-shadow: 0px 0px 10px green;}
     }
-    h2{background-color: rgb(62, 149, 219);
+    h2{background-color: rgb(68, 143, 204);
         color:rgb(255, 254, 254);
     border: solid 3px black;
     font-family:'Courier New', Courier, monospace;}
     h3{color: antiquewhite
         ;
-    background-color: #59c3d8;border: solid 3px black;
+    background-color: #589dd6;border: solid 3px black;
 padding: 3px;}
 h4{color: antiquewhite
     ;background-color: #59c3d8;border: solid 3px black;
     font-family:'Courier New', Courier, monospace;}
     p{font-family:'Courier New', Courier, monospace;
         color: antiquewhite;background-color:#59c3d8;border: solid 3px black;} 
-       
+       .imagen4{
+        border-radius: 20px;
+       }

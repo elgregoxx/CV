@@ -16,13 +16,15 @@ font-weight: bold;}
 .imagen{
     float: left;
     padding: 20px;
-    height: 250px;
+    height: 200px;
     width: 250px;
     transition: .5s ease;
+
 }
-.imagen{
-    border-radius: 300px;
-}
+.imagen2{
+    border-radius: 20px;
+    border: solid 3px;}
+
 ul{list-style-type: none;
     padding: 0%;
     margin: 0%;
@@ -53,7 +55,7 @@ opacity: .8;}
     50% {text-shadow: 0px 0px 10px green;}
 }
 h3{color: antiquewhite;font-family:'Courier New', Courier, monospace;
-}
+text-decoration-line: underline;}
 h4{color: antiquewhite 
     ; font-family:'Courier New', Courier, monospace;}
     p{color: antiquewhite; font-family:'Courier New', Courier, monospace;
