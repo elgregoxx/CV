@@ -7,7 +7,8 @@ body{background: hsl(195, 32%, 52%);  /* fallback for old browsers */
 h1{background-color: rgb(100, 195, 206);
     color:black;
 border-style:solid;
-padding: 5px;}
+padding: 5px;
+font-family:'Courier New', Courier, monospace;}
     
 .imagen2{
     padding: 20px;
@@ -30,7 +31,8 @@ ul{list-style-type: none;
     margin: 0%;
     overflow: hidden;
     background-color: rgb(75, 139, 199);
-    }
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;     }
     li a{
         float:left ;
         display: block;
@@ -53,9 +55,15 @@ ul{list-style-type: none;
     }
     h2{background-color: rgb(62, 149, 219);
         color:rgb(255, 254, 254);
-    border: solid 3px black;}
-    h3{color: antiquewhite;
-    background-color: #59c3d8;border: solid 3px black;}
+    border: solid 3px black;
+    font-family:'Courier New', Courier, monospace;}
+    h3{color: antiquewhite
+        ;
+    background-color: #59c3d8;border: solid 3px black;
+padding: 3px;}
 h4{color: antiquewhite
-    ;background-color: #59c3d8;border: solid 3px black;}
-    p{color: antiquewhite;background-color:#59c3d8;border: solid 3px black;} 
+    ;background-color: #59c3d8;border: solid 3px black;
+    font-family:'Courier New', Courier, monospace;}
+    p{font-family:'Courier New', Courier, monospace;
+        color: antiquewhite;background-color:#59c3d8;border: solid 3px black;} 
+       

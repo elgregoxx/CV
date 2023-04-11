@@ -8,16 +8,19 @@ body{background: hsl(195, 32%, 52%);  /* fallback for old browsers */
 h1{background-color: rgb(100, 195, 206);
     color:black;
 border-style:solid;
-padding: 5px;}
+padding: 5px;
+font-family:'Courier New', Courier, monospace;}
 h2{background-color: rgb(00, 195, 2061);
-    color:black;}
+    color:black;
+    font-family:'Courier New', Courier, monospace;}
     
     ul{list-style-type: none;
         padding: 0%;
         margin: 0%;
         overflow: hidden;
         background-color: rgb(75, 139, 199);
-        }
+        font-family:'Courier New', Courier, monospace;
+        cursor: pointer;      }
         li a{
             float:left ;
             display: block;
@@ -36,7 +39,11 @@ h2{background-color: rgb(00, 195, 2061);
         
          
         @keyframes glow{
-            50% {text-shadow: 0px 0px 10px green;}
+            50% {text-shadow: 0px 0px 10px rgb(80, 255, 45);}
         }
-        p{color: antiquewhite;}
-        h2{border: solid 3px black;}
+        p{color: antiquewhite; font-family:'Courier New', Courier, monospace;
+        
+        }
+        h2{border: solid 3px black;
+            font-family:'Courier New', Courier, monospace;}
+          
