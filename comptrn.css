@@ -4,15 +4,22 @@ body{background: hsl(195, 32%, 52%);  /* fallback for old browsers */
     
     font-size:large
 }
-h1{background-color: rgb(0, 183, 255);
+h1{background-color: rgb(100, 195, 206);
+    color:black;
+border-style:solid;
+padding: 5px;
+font-family:'Courier New', Courier, monospace;}
+h2{background-color: rgb(0, 183, 255);
     color:rgb(250, 246, 246);
 border: solid 4px black;
 padding: 1px;
 font-family:'Courier New', Courier, monospace;}
     
+    p{
+        color: #ffffff;
+    }
     
-    
-    h2{ background-color: rgb(0, 183, 255);
+    h3{ background-color: rgb(0, 183, 255);
         color:rgb(252, 252, 252);
     border: solid 3px black;
     padding: 5px;
@@ -21,39 +28,133 @@ font-family:'Courier New', Courier, monospace;}
     
 }
   
-    ul{list-style-type: none;
-        padding: 0%;
-        margin: 0%;
-        overflow: hidden;
-        background-color: rgb(75, 139, 199);
-        font-family:'Courier New', Courier, monospace;
-        cursor: pointer;      }
-        li a{
-            float:left ;
-            display: block;
-            color: rgb(255, 255, 255);
-            padding: 10px 15px;
-        text-align: center;
-        text-decoration:none;
-        min-width:60px;
-        border-right: 1px solid black;}
-        
-        li a:hover{
-            background-color:  rgb(52, 94, 131);
-        animation:glow;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;}
-           ol{color: antiquewhite;
-        background-color: #59c3d8;
+   
+
+
+
+*{list-style: none;
+    padding: 0%;
+    margin: 0%;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+    
+nav{ background: #278aa8;
+height: 80px;
+width: 100%;
+
+}
+    
+nav ul{
+    float: right;
+margin-right: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 80px; 
+    margin:0 5px ;
+
+color: whitesmoke;
+}
+
+
+nav ul li{
+    color: whitesmoke;
+
+    font-size: 18;
+
+    padding:  7px 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{ display: none;}
+
+
+
+@media (max-width:952px){
+.imagen4{
+    padding-left: 20px;}
+    nav ul li a{
+        font-size: 16px;
+
+    }
+}
+
+ 
+
+
+@media (max-width:858px)
+{
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position:fixed ;
+        width: 100%;
+        height: 100%;
+        background: #2175ad;
+        top: 80px;
+        left: -100%;
+text-align: center;
+transition: all .5s;
+    }
+  nav ul li{
+    display: block;
+    margin: 50px 0px;
+    line: height 30px; 
+    font-size: 20px;
+
+  }
+  li a:hover , li :active{
+background: none;
+color: rgb(255, 255, 255);
+background-color: #111f3a;
+
+  }
+  #check:checked ~ ul{
+    left: 0%;
+  }
+    }
+
+
+
+
+
+    
+
+
+
+
+
+    ol{color: antiquewhite;
+     
         font-family:'Courier New', Courier, monospace;}
 
                 p{color: antiquewhite;
-                background-color: #59c3d8;
+               
             border: solid 3px black;
             font-family:'Courier New', Courier, monospace;}
 
-                ul{border: solid 3px black;
-                color: white;}
+              
               p{
-                background-color: rgb(87, 146, 202);
+                color: #fcfcfc;
               }
+
+          ul{
+            color: #ffffff;
+          }
+
+        

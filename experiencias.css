@@ -14,33 +14,115 @@ h2{background-color: rgb(00, 195, 2061);
     color:black;
     font-family:'Courier New', Courier, monospace;}
     
-    ul{list-style-type: none;
+   
+
+
+    *{list-style: none;
         padding: 0%;
         margin: 0%;
-        overflow: hidden;
-        background-color: rgb(75, 139, 199);
-        font-family:'Courier New', Courier, monospace;
-        cursor: pointer;      }
-        li a{
-            float:left ;
-            display: block;
-            color: rgb(255, 255, 255);
-            padding: 10px 15px;
-        text-align: center;
-        text-decoration:none;
-        min-width:60px;
-        border-right: 1px solid black;}
+      text-decoration: none;
+      box-sizing: border-box;
+    }
         
-        li a:hover{
-            background-color:  rgb(52, 94, 131);
-        animation:glow;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;}
+    nav{ background: #2e839c;
+    height: 80px;
+    width: 100%;
+    
+    }
         
-         
-        @keyframes glow{
-            50% {text-shadow: 0px 0px 10px rgb(80, 255, 45);}
+    nav ul{
+        float: right;
+    margin-right: 20px;
+    }
+    
+    nav ul li{
+        display:inline-block;
+        line-height: 80px; 
+        margin:0 5px ;
+    
+    color: whitesmoke;
+    }
+    
+    
+    nav ul li{
+        color: whitesmoke;
+    
+        font-size: 18;
+    
+        padding:  7px 13px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    
+    .checkbtn{
+        font-size: 30px;
+        float: right;
+        color: rgb(255, 255, 255);
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    #check{ display: none;}
+    
+    
+    
+    @media (max-width:952px){
+    
+       
+        nav ul li a{
+            font-size: 16px;
+    
         }
+    }
+    
+     
+    
+    
+    @media (max-width:858px)
+    {
+       .imagen6{ position: relative;
+    
+       }
+        .checkbtn{
+    
+            display: block;
+        }
+        ul{
+            position:fixed ;
+            width: 100%;
+            height: 100%;
+            background: #194397;
+            top: 80px;
+            left: -100%;
+    text-align: center;
+    transition: all .5s;
+        }
+      nav ul li{
+        display: block;
+        margin: 50px 0px;
+    
+        font-size: 20px;
+    
+      }
+    
+    
+    
+      }
+      #check:checked ~ ul{
+        left: 0%;
+      }
+        
+    
+    
+    
+    
+    
+      
+    
+    
         p{color: antiquewhite; font-family:'Courier New', Courier, monospace;
         
         }
