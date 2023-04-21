@@ -52,7 +52,7 @@ h4{color: antiquewhite
       box-sizing: border-box;
     }
         
-    nav{ background: #278aa8;
+    nav{ background: #2e839c;
     height: 80px;
     width: 100%;
     
@@ -67,7 +67,7 @@ h4{color: antiquewhite
         display:inline-block;
         line-height: 80px; 
         margin:0 5px ;
-      
+    
     color: whitesmoke;
     }
     
@@ -98,26 +98,31 @@ h4{color: antiquewhite
     
     
     @media (max-width:952px){
-    .imagen4{
-        padding-left: 20px;}
+    
+       
         nav ul li a{
             font-size: 16px;
     
         }
     }
     
+     
     
     
     @media (max-width:858px)
     {
+    
+    
+       
         .checkbtn{
+    
             display: block;
         }
         ul{
             position:fixed ;
             width: 100%;
             height: 100%;
-            background: #2175ad;
+            background: #194397;
             top: 80px;
             left: -100%;
     text-align: center;
@@ -126,13 +131,11 @@ h4{color: antiquewhite
       nav ul li{
         display: block;
         margin: 50px 0px;
-        line-height:  30px; 
-        font-size: 20px;
     
+        font-size: 20px;
     
       }
     
-      
     
     
       }
@@ -144,31 +147,7 @@ h4{color: antiquewhite
     
     
     
-      .fa-instagram{color: #d908e0;
-        background-color: white;}
-            
-            .fa-twitter{color: #018dff;
-            background-color: white;}
-        
-            .fa-facebook{color: #006eff;
-            background-color: white;}
-        
-        .socialmedia ul{background-color: white;
-           }
-        
-        *{transition: .5s ease;}
-        @media screen and (max-width: 548px) {
-            .imagen2 {
-              margin-right: 250px;
-            }
-            .subtitulos{
-              margin: 20px 0 30px 15px;
-            }
-            .info, .infocontacto {
-              margin-left: 10px;
-            }}
-            .imagen6{
-                max-width: 100%;
-                max-height: 100%;
-            }
-        
+    
+      
+    
+    

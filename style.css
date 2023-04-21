@@ -112,15 +112,20 @@ transition: all .5s;
 
 
   }
-
-  
+  .fa-brandsfa-instagramfa-2x{
+    align-items: flex-end;
+   
+  }
+  li a:hover , li :active{
+background: none;
+color: red;
 
 
   }
   #check:checked ~ ul{
     left: 0%;
   }
-    
+    }
 
 
 
@@ -136,7 +141,23 @@ transition: all .5s;
         left: 10px;
     ;}
     
-  
+    .fa-instagram{color: #d908e0;
+    background-color: white;}
+        .fa-envelope{ color: rgb(142, 120, 204);
+        background-color: white;}
+        .fa-download{color: rgb(180, 71, 243);
+        background-color: white;}
+    
+        
+        
+        .fa-twitter{color: #018dff;
+        background-color: white;}
+    
+        .fa-facebook{color: #006eff;
+        background-color: white;}
+    
+    .socialmedia ul{background-color: white;
+       }
     
     *{transition: .5s ease;}
     @media screen and (max-width: 548px) {
@@ -156,6 +177,7 @@ transition: all .5s;
 
     
  
+
 
 
 
